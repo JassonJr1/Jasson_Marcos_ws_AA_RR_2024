@@ -59,15 +59,7 @@ Os resultados da análise incluem gráficos comparando os tempos de execução d
 
 A análise foi realizada ajustando modelos lineares e quadráticos aos dados de tempo de execução. Gráficos com os ajustes e análise da tendência assintótica estão disponíveis no script de análise Python.
 
-## Contribuições
-
-Se você deseja contribuir para este projeto ou reportar problemas, sinta-se à vontade para abrir uma "issue" ou enviar um "pull request".
-
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## Contato
-
-Se tiver alguma dúvida ou precisar de mais informações, entre em contato com [Seu Nome](mailto:seuemail@example.com).
 
