@@ -5,8 +5,8 @@ Este repositório contém o código e os resultados para a análise comparativa 
 
 ## Conteúdo do Repositório
 
-1. **Código C para DFS**: Implementação do algoritmo de Busca em Profundidade e medição do tempo de execução.
-2. **Código C para A\***: Implementação do algoritmo de Busca A* e medição do tempo de execução.
+1. **(Código C para DFS)[dfs.c]**: Implementação do algoritmo de Busca em Profundidade e medição do tempo de execução.
+2. **(Código C para A\*)[a_star.c]**: Implementação do algoritmo de Busca A* e medição do tempo de execução.
 3. **Código Python para Análise**: Script para gerar gráficos comparando os tempos de execução dos algoritmos e ajustar modelos de tendência.
 4. **Resultados**: Tempos de execução e gráficos de análise.
 
