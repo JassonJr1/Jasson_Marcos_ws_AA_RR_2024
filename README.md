@@ -10,6 +10,22 @@ Este repositório contém o código e os resultados para a análise comparativa 
 3. **Código Python para Análise**: Script para gerar gráficos comparando os tempos de execução dos algoritmos e ajustar modelos de tendência.
 4. **Resultados**: Tempos de execução e gráficos de análise.
 
+## Análise da Função de Custo do Algoritmo DFS
+
+O algoritmo de Busca em Profundidade (DFS) é um método fundamental para explorar grafos. Sua função de custo está relacionada ao tempo de execução do algoritmo, considerando o número de vértices e arestas no grafo. A seguir está a análise detalhada do custo:
+
+### 1. Inicialização dos Vértices
+O DFS inicia com a inicialização de todos os vértices do grafo, marcando-os como brancos e definindo seus predecessores como NIL.
+- **Custo:** \(O(V)\), onde \(V\) é o número de vértices.
+
+### 2. Visitação de Vizinhos
+O algoritmo percorre todos os vértices e, para cada vértice não visitado, chama a função `DFS-VISIT`. Durante essa visitação, o algoritmo examina todas as arestas incidentes a cada vértice.
+- **Custo:** O laço que percorre as arestas adjacentes de um vértice é executado \(O(E)\), onde \(E\) é o número de arestas.
+
+### 3. Tempo Total de Execução
+O algoritmo DFS garante que cada vértice é visitado exatamente uma vez e cada aresta é examinada uma vez. Isso ocorre porque, ao visitar um vértice, ele é marcado como preto e não é visitado novamente.
+- **Custo Total (Função de Custo do DFS):** \(O(V + E)\)
+
 ## Instruções para Executar
 
 ### Compilar e Executar o Código C
