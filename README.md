@@ -54,6 +54,7 @@ Este repositório contém o código e os resultados para a análise comparativa 
 ## Resultados
 
 Os resultados da análise incluem gráficos comparando os tempos de execução dos algoritmos DFS e A* para diferentes tamanhos de grafo. O ajuste dos modelos é realizado para identificar a tendência assintótica de cada algoritmo.
+O Gráfico pode ser visualizado [aqui](Grafico.png)
 
 ## Análise da Tendência de Comportamento Assintótico
 
