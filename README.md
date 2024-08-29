@@ -10,8 +10,9 @@ Este repositório contém o código e os resultados para a análise comparativa 
 3. **[Código Python para Análise](analise.py)**: Script para gerar gráficos comparando os tempos de execução dos algoritmos e ajustar modelos de tendência.
 4. **Resultados**: Tempos de execução e gráficos de análise.
 
-## Análise da Função de Custo do Algoritmo DFS
+## Análise da Função do Algoritmo DFS e Busca A*
 
+### DFS
 O algoritmo de Busca em Profundidade (DFS) é um método fundamental para explorar grafos. Sua função de custo está relacionada ao tempo de execução do algoritmo, considerando o número de vértices e arestas no grafo. A seguir está a análise detalhada do custo:
 
 ### 1. Inicialização dos Vértices
@@ -25,6 +26,16 @@ O algoritmo percorre todos os vértices e, para cada vértice não visitado, cha
 ### 3. Tempo Total de Execução
 O algoritmo DFS garante que cada vértice é visitado exatamente uma vez e cada aresta é examinada uma vez. Isso ocorre porque, ao visitar um vértice, ele é marcado como preto e não é visitado novamente.
 - **Custo Total (Função de Custo do DFS):** \(O(V + E)\)
+
+### Busca A*
+No algoritmo A* (A-estrela), utilizado para encontrar o caminho mais curto em grafos ou mapas, a complexidade de tempo é frequentemente descrita em termos de b e d, onde:
+
+- b é o fator de ramificação médio do grafo ou espaço de busca. Representa o número médio de filhos (ou sucessores) que cada nó ou estado pode ter.
+- d é a profundidade da solução ou a distância do nó inicial até o nó objetivo na árvore de busca.
+
+### Complexidade do A*
+
+A complexidade de tempo do A* é geralmente expressa como: O(b^d)
 
 ## Instruções para Executar
 
